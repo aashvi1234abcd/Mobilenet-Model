@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    background-image: linear-gradient(to right top, #ffbee3, #ffbde6, #ffbcea, #ffbcee, #ffbbf2, #ffb8f3, #feb6f3, #feb3f4, #fdacf1, #fda6ee, #fc9feb, #fc98e8);
+}
+
+#header_div{
+    background-color: #ffb8f3;
+    color: cornflowerblue;
+}
+
+#header_div img{
+    width: 100px;
+    height: 100px;
+}
+#main_div1{
+    background-color: #ffb8f3;
+    color: blue;
+    padding: 10px;
+    margin-top: 5px;
+    border: brown;
+    border-style: double;
+    border-width: 3px;
+}
+#main_div1 label{
+    background-color: #fda6ee;
+    width: 310px;
+    padding: 10px;
+    box-shadow: 5px 5px 18px white;
+}
+#camera,#snapshot_preview{
+border: rgb(255, 60, 0);
+border-style: double;
+border-width: 2px; 
+width: 310px;
+height: 300px;
+box-shadow: 5px 5px 18px white;
+}
+button{
+    width: 310px;
+    font-size: 20px;
+    box-shadow: 5px 5px 18px white;
+    border-style: double;
+    border-width: 5px;
+    border-color: firebrick;
+    margin-top: 15px;
+}
+#result{
+    margin-bottom:50px ;
+    text-align: left;
+}
+#result h4{
+    background: forestgreen;
+    border-radius: 5px;
+    padding:10px;
+    box-shadow: 5px 5px 18px whitesmoke;
+}
+#result img{
+    width:70px;
+}
+
+#footer_div{
+    position:fixed;
+    color: mediumvioletred;
+    bottom:10;
+    width:100%;
+    text-align: center;
+    line-height: 3px;
+    background: cross-fade(lightblue,lightpink);
+}
